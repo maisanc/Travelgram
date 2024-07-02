@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    width: 1280px;
+    height: 1346px;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    padding: 24px 32px;
+    margin: auto;
+
+
+}
+
+h2 {
+    color: #313131;
+    font-size: 3.2rem;
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 170%;
+}
+
+p,
+a {
+    color: #6C6C6C;
+}
+
+main {
+    padding: 24px 32px;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+nav {
+    padding: 20px 32px;
+}
+
+.navLeft {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.profile {
+    display: flex;
+    margin-bottom: 50px;
+    padding: 32px;
+    align-items: center;
+    gap: 32px;
+}
+
+image {
+    max-width: 50%;
+    height: auto;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 50%;
+}
+
+p {
+    max-width: 380px;
+    margin-top: 10px;
+}
+
+h1 {
+    color: #EF5F4C;
+    font-weight: bold;
+    font-size: 2.0rem;
+}
+
+.icons {
+    width: 280px;
+}
+
+figcaption {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+figcaption:first-child {
+    margin-top: 50px;
+}
+
+figcaption+figcaption {
+    margin-top: 16px;
+    justify-content: flex-start;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #EF5F4C;
+    font-weight: bold;
+}
+
+.lastFooter {
+    display: flex;
+    gap: 16px;
+}
+
+footer {
+    padding: 24px 32px;
+}
